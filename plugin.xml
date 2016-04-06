@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-demo" version="0.0.1">
-    <name>Demo</name>
-    <description>Cordova Demo Plugin</description>
-    <author>Akshay Shinde</author>
-    <license>Apache 2.0</license>
-    <asset src="dpool.gif" target="assets/dpool.gif"/>
-    <keywords>cordova,device</keywords>
-    <js-module src="www/demo.js" name="demo">
-        <clobbers target="window.demo" />
-    </js-module>
-    <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="Demo">
-                <param name="ios-package" value="CDVDemo"/>
-            </feature>
-        </config-file>
-        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
-      		<array>
-          		<dict>
-              		<key>PackageName</key>
-              		<string>$PACKAGE_NAME</string>
-          		</dict>
-      		</array>
- 		 </config-file>
-        <header-file src="src/ios/CDVDemo.h" />
-        <source-file src="src/ios/CDVDemo.m" />
-    </platform>
+  <name>Demo</name>
+  <description>Cordova Demo Plugin</description>
+  <author>Akshay Shinde</author>
+  <license>Apache 2.0 License</license>
+  <asset src="dpool.gif" target="images/dpool.gif"/>
+  <keywords>cordova,demo</keywords>
+  <js-module src="www/demo.js" name="demo">
+    <clobbers target="window.demo" />
+  </js-module>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Demo">
+        <param name="ios-package" value="CDVDemo"/>
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+    <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+      <array>
+        <dict>
+          <key>PackageName</key>
+          <string>$PACKAGE_NAME</string>
+        </dict>
+      </array>
+    </config-file>
+    <header-file src="src/ios/CDVDemo.h" />
+    <source-file src="src/ios/CDVDemo.m" />
+  </platform>
 </plugin>
