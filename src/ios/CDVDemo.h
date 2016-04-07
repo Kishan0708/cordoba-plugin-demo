@@ -12,7 +12,7 @@
 
 #import <Cordova/CDV.h>
 
-@interface CDVDemo: CDVPlugin
+@interface Demo: CDVPlugin
 
 - (void)demo:(CDVInvokedUrlCommand*)command;
 
