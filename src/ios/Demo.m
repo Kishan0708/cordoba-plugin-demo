@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-#import "CDVDemo.h"
+#import "Demo.h"
 #import <Cordova/CDV.h>
 
 @implementation Demo : NSObject 
