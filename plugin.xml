@@ -4,7 +4,7 @@
   <name>Demo</name>
   <description>Cordova Demo Plugin</description>
   <engines>
-      <engine name="cordova-ios" version=">=4.0.0" />
+      <engine name="cordova-ios" version=">=3.8.0" />
     </engines>
   <author>Akshay Shinde</author>
   <license>Apache 2.0 License</license>
