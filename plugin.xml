@@ -11,7 +11,7 @@
   <asset src="dpool.gif" target="images/dpool.gif"></asset>
   <keywords>cordova,demo</keywords>
   <js-module src="www/demo.js" name="demo">
-    <clobbers target="window.demo" />
+    <clobbers target="window.demo"></clobbers>
   </js-module>
   <platform name="ios">
     <config-file target="config.xml" parent="/*">
