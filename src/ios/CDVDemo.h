@@ -14,6 +14,17 @@
 
 @interface Demo: CDVPlugin
 
+- (id)init 
+{
+    self = [super init];
+    if (self) 
+    {
+        // superclass successfully initialized, further 
+        // initialization happens here ...
+    }
+    return self;
+}
+
 - (void)demo:(CDVInvokedUrlCommand*)command;
 
 @end
