@@ -5,7 +5,7 @@
   <description>Cordova Demo Plugin</description>
   <author>Akshay Shinde</author>
   <license>Apache 2.0 License</license>
-  <asset src="dpool.gif" target="images/dpool.gif"/>
+  <asset src="dpool.gif" target="images/dpool.gif"></asset>
   <keywords>cordova,demo</keywords>
   <js-module src="www/demo.js" name="demo">
     <clobbers target="window.demo" />
