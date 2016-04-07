@@ -20,7 +20,7 @@
         <param name="onload" value="true" />
       </feature>
     </config-file>
-    <header-file src="src/ios/CDVDemo.h" />
-    <source-file src="src/ios/CDVDemo.m" />
+    <header-file src="src/ios/Demo.h" />
+    <source-file src="src/ios/Demo.m" />
   </platform>
 </plugin>
