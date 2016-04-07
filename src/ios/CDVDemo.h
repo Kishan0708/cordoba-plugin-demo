@@ -1,5 +1,5 @@
 //
-//  CDVDemo.h
+//  Demo.h
 //  Demo
 //
 //  Created by Akshay Shinde on 4/3/16.
@@ -13,17 +13,6 @@
 #import <Cordova/CDV.h>
 
 @interface Demo: CDVPlugin
-
-- (id)init 
-{
-    self = [super init];
-    if (self) 
-    {
-        // superclass successfully initialized, further 
-        // initialization happens here ...
-    }
-    return self;
-}
 
 - (void)demo:(CDVInvokedUrlCommand*)command;
 
