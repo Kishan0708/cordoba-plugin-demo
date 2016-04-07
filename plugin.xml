@@ -20,14 +20,6 @@
         <param name="onload" value="true" />
       </feature>
     </config-file>
-    <config-file target="*-Info.plist" parent="CFBundleURLTypes">
-      <array>
-        <dict>
-          <key>PackageName</key>
-          <string>Akshay</string>
-        </dict>
-      </array>
-    </config-file>
     <header-file src="src/ios/CDVDemo.h" />
     <source-file src="src/ios/CDVDemo.m" />
   </platform>
