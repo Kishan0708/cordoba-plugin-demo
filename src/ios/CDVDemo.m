@@ -12,7 +12,7 @@
 #import "CDVDemo.h"
 #import <Cordova/CDV.h>
 
-@implementation CDVDemo : NSObject 
+@implementation Demo : NSObject 
 
 - (void)demo:(CDVInvokedUrlCommand*)command
 {
